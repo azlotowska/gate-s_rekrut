@@ -1,0 +1,71 @@
+body {
+    background-color: darkslateblue;
+    color: white;
+    font-family: Courier;
+}
+
+div#strona {
+    padding: 3%;
+}
+
+div#flexbox {
+    display: flex;
+}
+
+div.flex {
+    flex-direction: column;
+    width: 38%;
+    background-color: lightblue;
+    padding: 1%;
+    margin: 1%;
+    color: darkslateblue;
+    text-align: center;
+}
+
+/* MENU */
+a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: deepskyblue;
+    color: white;
+    padding: 1%;
+    width: 15%;
+    margin-bottom: 1%;
+}
+
+a:hover {
+    color: deepskyblue;
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Tables */
+
+table {
+    border-collapse: collapse;
+    border: 1px solid darkblue;
+}
+td {
+    padding: 5px;
+    border: 1px solid darkblue;
+}
+
+/* Button */
+button {
+    background-color: #1565c0;
+    text-align: center;
+    border: 1px solid #1976d2;
+    color: white;
+    width: 15%;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: white;
+    color: #1976d2;
+    border: none;
+    cursor: pointer;
+}
